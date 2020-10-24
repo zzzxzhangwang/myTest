@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#268dcd",
+    "navigationBarTitleText": "本地宝",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "selectedColor": "#D53E37",
+    "backgroudColor": "#F5F5F5",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    },{
+      "pagePath": "pages/test/test",
+      "text": "张望"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

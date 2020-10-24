@@ -1,0 +1,18 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+/* 功能封装2：专门用于做间隔的类，设定高度，填充底色 */
+
+.divider {
+  height: 20rpx;
+  background-color: #f1f1f1;
+  box-shadow: 0 5rpx 5rpx rgba(0, 0, 0, 0.2)inset;
+}
